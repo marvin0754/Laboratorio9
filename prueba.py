@@ -2,9 +2,8 @@ import cv2
 import easyocr
 
 reader = easyocr.Reader(["es","en"], gpu=False)
-# image = cv2.imread("imagenes/placa1.jpg")
+image = cv2.imread("imagenes/placa1.jpg")
 # image = cv2.imread("imagenes/placa2.jpeg")
-image = cv2.imread("imagenes/placa3.jpg")
 # image = cv2.imread("imagenes/placa4.jpg")
 # image = cv2.imread("imagenes/placa5.jpeg")
 
